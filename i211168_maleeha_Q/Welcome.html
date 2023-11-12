@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <script>
+       document.addEventListener("DOMContentLoaded" , ()=>{
+        let User = JSON.parse(localStorage.getItem("user"));
+        document.getElementById("email").innerText = User.email;
+        document.getElementById("name").innerText = User.FullName;
+       })
+    </script>
+</head>
+<body>
+   
+    <p id="name"></p>
+    <p id="email"></p> 
+    
+</body>
+</html>

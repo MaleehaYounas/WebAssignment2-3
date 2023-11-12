@@ -1,0 +1,44 @@
+.bg{
+    background-color: #a9cbcd;
+}
+.container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border: #1d7e85 1px solid;
+    background-color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.input-fields{
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.submit-btn{
+    background: #1d7e85;
+    color: #fff;
+    border: 0;
+    border-radius: 3px;
+    padding: 7px;
+    margin-left: 30%;
+}
+
+.submit-btn:hover {
+    background: #07454a;
+    
+}
